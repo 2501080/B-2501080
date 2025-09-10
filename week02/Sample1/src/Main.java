@@ -10,3 +10,4 @@ public class Main {
 //중괄호 기준으로 블럭 나눔
 //int는 keyword라고 함
 //out, error(err) 는 모니터에 나오니 monitor
+

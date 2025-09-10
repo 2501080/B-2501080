@@ -9,7 +9,7 @@ public class Main {
 
         name = keyboard.nextLine(); //data 입력
 
-        //처리
+        /*처리*/
 
 /*출력*/  System.out.println("입력받은 이름 : " + name);
     }
