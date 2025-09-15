@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         //준비물
-        Scanner keboard = new Scanner(System.in);
+        Scanner keyboard = new Scanner(System.in);
         char ch = ' ';
 
 
-        //data 입력
+        /*data 입력*/
         System.out.print("문자 하나 입력 : ");
-        ch = keboard.next().charAt(0);
+        ch = keyboard.next().charAt(0);
 
         //처리
 
