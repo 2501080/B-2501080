@@ -24,5 +24,6 @@ public class Main {
         System.out.printf("\n정사각형 면적 : %.0f Cm2\n",boxArea);
         System.out.printf("원의 면적 : %.2f Cm2\n",circleArea);
         System.out.printf("구하는 면적 : %.2f Cm2\n", area);
+
     }
 }
