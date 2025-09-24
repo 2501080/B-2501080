@@ -6,8 +6,8 @@ public class Main {
     public static void main(String[] args) {
         //준비물
         Scanner keyboard = new Scanner(System.in);
-        int salary, bonus; //data
-        int total, tax;    //정보
+        int salary, bonus;
+        int total, tax;
 
         //data 입력
         System.out.print("본봉 입력 : ");
@@ -18,8 +18,6 @@ public class Main {
         //처리
         total = salary + bonus;
         tax = (int) (total * (8.0f / 100));
-
-                  //십 단위 없애버림
         tax /= 100;
         tax *= 100;
 
