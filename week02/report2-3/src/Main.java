@@ -10,6 +10,7 @@ public class Main {
         int family = 0;
         String area = "";
 
+
         //data 입력
         System.out.print("당신의 이름은 ? ");
         name = keyboard.nextLine();
