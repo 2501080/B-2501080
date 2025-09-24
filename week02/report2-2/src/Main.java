@@ -19,6 +19,7 @@ public class Main {
         boxArea = (radius * 2) * (radius * 2);
         circleArea = radius * radius * Math.PI;
         area = boxArea - circleArea;
+
         //출력
         System.out.printf("\n정사각형 면적 : %.0f Cm2\n",boxArea);
         System.out.printf("원의 면적 : %.2f Cm2\n",circleArea);

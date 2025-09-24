@@ -18,6 +18,7 @@ public class Main {
 
         //처리
 
+
         //출력
         System.out.printf("당신의 나이는 %d살 입니다.\n", age);
         System.out.printf("당신의 체충은 %.1f kg입니다.\n", weight);
