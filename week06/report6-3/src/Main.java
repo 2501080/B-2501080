@@ -25,7 +25,7 @@ public class Main {
                 (age>=13 && age<=19) && (card=='O') ? 750 :
                         (age>=13 && age<=19) && (card=='X') ? 850 :
                                 (age>=20) && (card=='O') ? 1250 : 1350;
-        result2 = (time>=0 && time<=4 || time>=22 && time<=23) && age>12 ? (int) (result1*1.2) : result1;
+        result2 = (time>=0 && time<=4 || time>=22 && time<=23) ? (int) (result1*1.2) : result1;
 
         //출력
         System.out.printf("당신이 내야할 대중교통 요금은 총 %,d원 입니다. \n", result2);
